@@ -489,7 +489,7 @@ int main()
     system("COLOR 06");
     password();
     system("cls");
-    char N[15]="shakil";
+    char N[15]="nory11";
     int choice;
     if(strcmp(C,N)==0)
     {
