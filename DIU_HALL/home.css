@@ -1,0 +1,59 @@
+#section-2 {
+  background-color: #fff;
+  padding: 50px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form
+{
+  margin-bottom: 100px;
+}
+
+#section-2 .content {
+  text-align: center;
+  flex-basis: 60%;
+}
+
+#section-2 h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#section-2 .par {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#section-2 .form {
+  background-color: orange;
+  padding: 100px ;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  flex-basis: 20%;
+}
+
+/*Nory*/
+.input_deg
+{
+    width: 320px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+.adm_int
+{
+    padding-top: 10px;
+}
+.label_text
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+.cn 
+{
+  float: left;
+}

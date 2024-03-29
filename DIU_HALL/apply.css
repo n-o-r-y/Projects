@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* Footer Main */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .footer .footer-location h2,
+  .footer-contact h2,
+  .footer-links h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: orange;
+  }
+
+  .footer-section p,
+  a {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* Footer Location Section */
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-links ul a:hover {
+    color: orange;
+  }
+
+  /* Footer Bottom */
+  .footer-bottom {
+    background-color: #064789;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0;
+  }
+  .data {
+    text-align: center;
+    margin-top: 60px;
+  }
+  h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2em;
+  }
+  input {
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 1px 1px 3px;
+  }
+  .signup {
+    width: 450px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    background-color: #064789;
+    color: #fff;
+    border: #064789;
+    font-weight: bolder;
+  }
+  .signup:hover {
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    font-size: 1.25em;
+  }
+  .info {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 0.8em;
+  }
+  #acc {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #064789;
+    font-size: 1.5em;
+  }
+  #acc:hover {
+    color: orange;
+  }

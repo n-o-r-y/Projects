@@ -1,0 +1,195 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Profile Section */
+  .container {
+    width: 70%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-circle {
+    width: 120px; 
+    height: 120px;
+    max-width: 100%; 
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .profile-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .search-box {
+    position: relative;
+  }
+  .search-text {
+    font-size: 20px;
+    position: absolute;
+    left: 190px;
+    font-weight: bold;
+  }
+  .search-input {
+    width: 760px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 30px; 
+  }
+  
+  /* Buttons */
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; 
+}
+  
+.buttons .button-wrap {
+  text-align: center;
+  margin: 10px; 
+}
+
+.buttons .button-wrap button {
+  padding: 50px; 
+  width: 150px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  .custom-button {
+    width: 200px; 
+    height: 60px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .custom-button {
+    width: 200px; 
+    height: 60px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .custom-button img {
+    max-width: 120%; 
+    height: auto; 
+  }
+  
+  .custom-button:hover {
+    background-color: #f2f2f2; 
+    transform: scale(1.05); 
+  }
+  
+  .button-text {
+    margin-top: 10px; 
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  
+  
+  /* Footer Main */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;  
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer .footer-location h2, .footer-contact h2, 
+  .footer-links h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  .footer-section p, a {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  /* Footer Location Section */
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .footer-links ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul a:hover {
+    color: orange;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0; 
+  }
+
+  /*Nory*/
+  .logout
+  {
+      float: right;
+      padding-right: 20px;
+  }

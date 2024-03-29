@@ -1,0 +1,458 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+.form{
+
+    margin-left: 250px;
+
+    padding:50px;
+    width:500px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 35px;
+    margin-bottom: 150px;
+}
+
+ h2{
+  text-align: center;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 41px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;}
+
+h1{
+    
+  text-align: center;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+h3{
+  text-align: center;
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 25px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+#Sline{
+  font-family: "Times New Roman", Times, serif;
+}
+button{
+    
+    padding: 10px;
+    
+}
+#myButton {
+ 
+  background-color:  #9ebaf7;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Segoe UI";
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+
+
+#myButton:hover {
+  background-color: rgba(228, 239, 233, 0.966);
+  border: 2px solid rgb(3, 3, 3);
+  color: rgb(3, 2, 2)
+}
+
+#myButton2 {
+  background-color:  #9ebaf7;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Segoe UI";
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+
+
+#myButton2:hover {
+  background-color:  rgba(228, 239, 233, 0.966);
+  border: 2px solid rgb(3, 3, 3);
+  color: rgb(3, 2, 2)
+}
+
+#myButton3 {
+ 
+  background-color:  #9ebaf7;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Segoe UI";
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+
+#myButton3:hover {
+  background-color:  rgba(228, 239, 233, 0.966);
+  border: 2px solid rgb(3, 3, 3);
+  color: rgb(3, 2, 2)
+}
+
+
+
+
+
+
+button{
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid rgb(101, 147, 190);
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #649ec0;
+  cursor: pointer;
+  font-family: "Segoe UI";
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+  
+
+}
+
+button:hover {
+  background-color: rgb(7, 6, 6);
+  border: 2px solid rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+
+.form2{
+
+  background-image:linear-gradient(to right, rgba(228, 239, 233, 0.966), #abb9d8);
+    margin:300px auto;
+
+    padding:50px;
+    width:500px;
+    border-radius: 30px;
+    margin-top: 50px;
+     margin-bottom: 70px;
+    
+}
+.head{
+
+    margin-top: 50px;
+    
+} 
+
+.form1, .form2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-inline-start: 100px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+
+
+
+
+      .popup {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: none;
+    }
+    .popup-content {
+        background-image: linear-gradient(to right, rgba(228, 239, 233, 0.966), #abb9d8);
+        margin: 20% auto;
+        padding: 40px;
+        border: 1px solid #888888;
+        width: 40%;
+        border-radius: 20px;
+        
+    }
+    .popup-content button {
+        display: block;
+        margin: 0 auto;
+    }
+    .show {
+        display: block;
+    }
+   
+
+    #closePopup{
+
+      
+      margin-top: 10px;
+      width: 0%;
+      background-color: #000;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      
+    }
+    
+
+
+
+    .popup2 {
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+  }
+  .popup-content2 {
+      background-image: linear-gradient(to right, rgba(228, 239, 233, 0.966), #abb9d8);
+      margin: 20% auto;
+      padding: 40px;
+      border: 1px solid #888888;
+      width: 40%;
+      border-radius: 20px;
+        
+      
+  }
+  .popup-content2 button {
+      display: block;
+      margin: 0 auto;
+  }
+  .show {
+      display: block;
+  }
+ 
+
+  #closePopup2{
+
+    margin-top: 10px;
+    width: 0%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+  }
+
+
+
+  .popup3 {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.popup-content3 {
+    background-image: linear-gradient(to right, rgba(228, 239, 233, 0.966), #abb9d8);
+    margin: 20% auto;
+    padding: 40px;
+    border: 1px solid #888888;
+    width: 40%;
+    border-radius: 20px;
+    
+        
+    
+}
+.popup-content3 button {
+    display: block;
+    margin: 0 auto;
+}
+.show {
+    display: block;
+}
+
+
+#closePopup3{
+
+  margin-top: 10px;
+  width: 0%;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+input[type="date"]{
+  background-color: #9ebaf7;
+
+  padding: 10px;
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 15px;
+  border: 3px solid white;
+  outline: none;
+  border-radius: 15px;
+
+
+}
+input[type="date"]:hover{
+  background-color:  rgba(228, 239, 233, 0.966);
+  border: 2px solid rgb(3, 3, 3);
+  color: rgb(3, 2, 2)
+
+}
+.foot
+{
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin-bottom: 200px;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 1.8rem;
+  color:#064789;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, .btnform {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+#btnform{
+  color: white;
+  margin-top: 20px;
+  background: #064789;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+#btnform:hover {
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+  background:#000000;
+  border: 2px solid white;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+input::placeholder {
+  color: gray;
+}

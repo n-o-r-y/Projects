@@ -1,0 +1,161 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color:  #f3f0ee;;
+}
+/* Apply styles to the header */
+/* Navbar Section */
+.navbar {
+    background-color: #064789;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo3 {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    float: left;
+    margin-bottom: 0px; /* Adjust margin as needed */
+    border-radius: 0%; /* Add border-radius for a circular shape (optional) */
+   /* Add a border for style (optional) */
+   margin-top: 0px;
+  }
+  .icon {
+    color: #FFFFFF;
+    width: 200px;
+    margin-left: 30px;
+  }
+  
+  .menu {
+    margin-right: 10%;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin-left: 25px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  .menu ul li a:hover {
+    color: orange;
+  }
+  
+/* ############################### */
+
+
+/* Apply styles to the main section */
+.main-section {
+    background-color: #f0fcfc;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.payment {
+    margin-top: 100px;
+    margin-bottom: 40px;   
+    font-size: 50px;
+}
+
+/* Apply styles to buttons */
+.button-container {
+  background-color: #f3f0ee;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-table {
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.button-cell {
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the content in cells */
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 0px; /* Adjust margin as needed */
+  border-radius: 0%; /* Add border-radius for a circular shape (optional) */
+ /* Add a border for style (optional) */
+ margin-top: 10px;
+}
+.logo2 {
+  width: 180px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 0px; /* Adjust margin as needed */
+  border-radius: 0%; /* Add border-radius for a circular shape (optional) */
+ /* Add a border for style (optional) */
+ margin-top: 10px;
+}
+.rounded-button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px 0;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Customize button colors */
+.button-container .rounded-button:nth-child(1) {
+  background-color: #20dce4;
+  color: white;
+}
+.card {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+
+.card:hover {
+  color: orange;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+/* ############################## */
+
+
+/* Apply responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        margin-top: 10px;
+    }
+
+    .button-container {
+        margin-top: 30px;
+    }
+}

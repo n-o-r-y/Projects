@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color:  #f3f0ee;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: #064789;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo3 {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-bottom: 0px;
+  border-radius: 0%;
+  margin-top: 0px;
+}
+
+.menu {
+  margin-right: 10%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: orange;
+}
+
+.icon1 {
+  color: #FFFFFF;
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+  box-shadow: none;
+  border: none;
+}
